@@ -1,0 +1,40 @@
+API TROUBLESHOOTING GUIDE
+
+1. COMMON ERROR CODES
+- 400 Bad Request: Check request format and required parameters
+- 401 Unauthorized: Verify API key is valid and properly formatted
+- 403 Forbidden: Check account permissions and rate limits
+- 404 Not Found: Verify endpoint URL and resource existence
+- 429 Too Many Requests: Rate limit exceeded, implement backoff
+- 500 Internal Server Error: Temporary server issue, retry after delay
+
+2. AUTHENTICATION ISSUES
+- API keys must be included in Authorization header
+- Format: "Authorization: Bearer YOUR_API_KEY"
+- Keys expire after 1 year and must be renewed
+- Test authentication with /auth/verify endpoint
+
+3. RATE LIMITING
+- Basic Plan: 100 requests per minute
+- Professional Plan: 1,000 requests per minute
+- Enterprise Plan: 10,000 requests per minute
+- Use exponential backoff when hitting limits
+
+4. INTEGRATION BEST PRACTICES
+- Always validate responses before processing
+- Implement proper error handling and retries
+- Use webhooks for real-time updates when possible
+- Cache responses when appropriate to reduce API calls
+
+5. DEBUGGING STEPS
+1. Check API key validity
+2. Verify request format matches documentation
+3. Test with curl or Postman first
+4. Check server status at status.ourservice.com
+5. Review API logs in dashboard
+
+6. PERFORMANCE OPTIMIZATION
+- Use batch endpoints when available
+- Implement request caching
+- Use compression for large payloads
+- Monitor response times and optimize accordingly

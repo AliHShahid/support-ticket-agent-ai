@@ -1,0 +1,20 @@
+Generate an escalation message for a support ticket that failed automated resolution after {attempts} attempts.
+
+Original Ticket:
+Subject: {subject}
+Description: {description}
+Category: {category}
+
+Failed Attempts:
+{failed_attempts}
+
+Reviewer Feedback:
+{reviewer_feedback}
+
+Create a clear escalation message for human agents including:
+1. Summary of the issue
+2. What was attempted
+3. Why it failed
+4. Recommended next steps
+
+Escalation Message:

@@ -1,0 +1,27 @@
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.1
+  max_tokens: 1000
+
+embeddings:
+  provider: "openai"
+  model: "text-embedding-3-small"
+  chunk_size: 1000
+  chunk_overlap: 200
+
+categories:
+  - "Billing"
+  - "Technical" 
+  - "Security"
+  - "General"
+
+retry:
+  max_attempts: 2
+  
+escalation:
+  log_file: "data/escalation_log.csv"
+
+vector_store:
+  type: "chroma"
+  persist_directory: "embeddings/chroma_db"

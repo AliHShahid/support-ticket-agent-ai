@@ -1,0 +1,31 @@
+BILLING POLICIES AND PROCEDURES
+
+1. SUBSCRIPTION PLANS
+- Basic Plan: $29.99/month - Up to 1,000 API calls
+- Professional Plan: $99.99/month - Up to 10,000 API calls  
+- Enterprise Plan: $299.99/month - Unlimited API calls
+
+2. BILLING CYCLES
+- All subscriptions are billed monthly on the anniversary date of signup
+- Charges appear 1-2 business days before the billing date
+- Failed payments result in service suspension after 3 days
+
+3. REFUND POLICY
+- Full refunds available within 30 days of initial purchase
+- Partial refunds may be considered for service outages exceeding 24 hours
+- Refunds are processed within 5-7 business days
+
+4. PAYMENT METHODS
+- Credit cards (Visa, MasterCard, American Express)
+- PayPal
+- Bank transfers for Enterprise customers
+
+5. BILLING DISPUTES
+- Contact billing support within 60 days of charge
+- Provide transaction ID and detailed explanation
+- Disputes are resolved within 10 business days
+
+6. ACCOUNT SUSPENSION
+- Accounts are suspended for non-payment after 7 days
+- Data is retained for 30 days after suspension
+- Reactivation requires payment of outstanding balance plus $25 reactivation fee
