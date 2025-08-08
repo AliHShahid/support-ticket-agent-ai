@@ -16,21 +16,23 @@ This system implements a graph-based workflow that mirrors real-world support op
 ### Installation Guidelines 
 This project is built using Windows 10
 
-2. **Create virtual environment:**
+1. **Create virtual environment:**
    \`\`\`bash
    python -m venv venv
+   \`\`\`
+   \`\`\`bash
    venv\\Scripts\\activate  # Windows
    \`\`\`
 
-3. **Install dependencies:**
+2. **Install dependencies:**
    \`\`\`bash
    pip install -r requirements.txt
    \`\`\`
 
-4. **Configure environment:**
+3. **Configure environment:**
    Edit .env with your API keys
 
-5. **Run the agent:**
+4. **Run the agent:**
    \`\`\`bash
    python main.py
    \`\`\`
