@@ -30,10 +30,10 @@ pip install -r requirements.txt
 Step 3: Configure Environment Variables
 Create a .env file in the project root with the following:
 
-OPENAI_API_KEY=your_openai_api_key
-LANGCHAIN_API_KEY=your_langchain_api_key
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_PROJECT=support-ticket-agent
+- OPENAI_API_KEY=your_openai_api_key
+- LANGCHAIN_API_KEY=your_langchain_api_key
+- LANGCHAIN_TRACING_V2=true
+- LANGCHAIN_PROJECT=support-ticket-agent
 You can get these keys from:
 
 OpenAI Platform
