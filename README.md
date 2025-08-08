@@ -16,26 +16,40 @@ This system implements a graph-based workflow that mirrors real-world support op
 ### Installation Guidelines 
 This project is built using Windows 10
 
-1. **Create virtual environment:**
-   \`\`\`bash
-   python -m venv venv
-   \`\`\`
-   \`\`\`bash
-   venv\\Scripts\\activate  # Windows
-   \`\`\`
+Step 1: Create a Virtual Environment
 
-2. **Install dependencies:**
-   \`\`\`bash
-   pip install -r requirements.txt
-   \`\`\`
+python -m venv venv
+Activate it:
+# Windows
+venv\Scripts\activate
 
-3. **Configure environment:**
-   Edit .env with your API keys
+Step 2: Install Dependencies
 
-4. **Run the agent:**
-   \`\`\`bash
-   python main.py
-   \`\`\`
+pip install -r requirements.txt
+
+Step 3: Configure Environment Variables
+Create a .env file in the project root with the following:
+
+OPENAI_API_KEY=your_openai_api_key
+LANGCHAIN_API_KEY=your_langchain_api_key
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=support-ticket-agent
+You can get these keys from:
+
+OpenAI Platform
+
+LangSmith / LangChain
+
+Step 4: Run the Agent
+
+python main.py
+You’ll see a CLI interface:
+
+Support Ticket Resolution Agent
+Choose an option:
+1. Interactive Demo
+2. Run Sample Tickets
+3. Exit
 
 ## Core Features
 
